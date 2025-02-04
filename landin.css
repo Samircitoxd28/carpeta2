@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu li {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ff758c;
+}
+
+/* Estilos del logo */
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/* Sección Hero */
+.hero {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    text-align: center;
+    padding: 200px 20px 100px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #ff758c;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #ffebef;
+}
+
+/* Features Section */
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 10%;
+    background: #f8f8f8;
+}
+
+.content-box {
+    width: 45%;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-box h2 {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.content-box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.cta {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #333;
+    color: white;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #fdded5, #f8a5c2);
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 10px;
+}
